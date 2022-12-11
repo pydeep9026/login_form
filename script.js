@@ -1,8 +1,3 @@
-/*
-  Inspired by: "Login Page & Homepage"
-  By: Neo  Link: https://dribbble.com/shots/4485321-Login-Page-Homepage
-*/
-
 let usernameInput = document.querySelector(".username");
 let passwordInput = document.querySelector(".password");
 let showPasswordButton = document.querySelector(".password-button");
