@@ -358,14 +358,13 @@ body {
 
 .container .col-six {
   background: rgb(255, 215, 221);
-  height:200px;
-  width:1000px;
-  position: absolute;
-  bottom: 20px;
-  right: 15px;
-  display: flex;
+  height:20px;
+  width:100%;
+  position: ABSOLUTE;
+  bottom: 10px;
+  display: block;
   justify-content: center;
   align-items: center;
-  width: 500px;
-  height: 20px;
+ 
 }
+
