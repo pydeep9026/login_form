@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700&display=swap");
 * {
   box-sizing: border-box;
@@ -20,9 +21,13 @@ body {
   border-radius: 3px;
   transform: translate(-50%, -50%);
   overflow: hidden;
-  background-image: linear-gradient(to top right, #f9a743, #f9db5f);
+  background-image:url(5071621_19834.jpg);
 }
 
+.container .footer {
+  font-family: Arial;
+  font-family: 'Franklin Gothic Medium';
+}
 .container .ear {
   position: absolute;
   top: -110px;
@@ -356,6 +361,85 @@ body {
   }
 }
 
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.main{
+    bottom: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    background: #fff;
+    margin: 14px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 36px;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150, .3);
+    transition: all .3s ease-out;
+}
+.icon:hover{
+    width: 180px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+.icon:hover i{
+    color: #fff;
+}
+.icon .fa-facebook-f{
+    color: #1A6ED8;
+}
+.fb:hover{
+    background: #1A6ED8;
+}
+.icon .fa-instagram{
+    color: #5851DB;
+}
+.ig:hover{
+  background: #f09433;
+background: -moz-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50% ,#cc2366 75%,#bc1888 100%);
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50% ,#cc2366 75%,#bc1888 100%);
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50% ,#cc2366 75%,#bc1888 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startcolorstr='#f09433', endcolorstr='#bc1888',GradientType=1);
+
+}
+.icon .fa-linkedin-in{
+    color: #0077B5;
+}
+.lnk:hover{
+    background: #0077B5;
+}
+.icon .fa-github{
+    color: #000;
+}
+.git:hover{
+    background: #000;
+}
+.icon .fa-youtube{
+    color: #FE0000;
+}
+.yt:hover{
+    background: #FE0000;
+}
+
+/* responsive */
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+    .main{
+        flex-direction: column;
+    }
+}
+
 .container .col-six {
   background: rgb(255, 215, 221);
   height:20px;
@@ -367,4 +451,6 @@ body {
   align-items: center;
  
 }
+
+
 
