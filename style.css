@@ -308,8 +308,8 @@ body {
   transform: scale(0.95);
 }
 .container .login .login-button {
-  width: 50%;
-  margin: 10px 95px 10px;
+  width: 100%;
+  margin: 10px px 10px;
   align-items: center;
   outline: none;
   border:1px solid #faf1f1;
