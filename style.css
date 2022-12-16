@@ -444,8 +444,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startcolorstr='#f09433', end
   background: rgb(255, 215, 221);
   height:20px;
   width:100%;
-  position: ABSOLUTE;
-  bottom: 10px;
+  position:relative;
+  bottom: -150px;
   display: block;
   justify-content: center;
   align-items: center;
