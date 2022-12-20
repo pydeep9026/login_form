@@ -383,6 +383,7 @@ body {
     overflow: hidden;
     box-shadow: 5px 10px 20px rgba(150, 150, 150, .3);
     transition: all .3s ease-out;
+   text-decoration: none;
 }
 .icon:hover{
     width: 180px;
@@ -392,6 +393,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     color: #fff;
+   text-decoration: none;
 }
 .icon:hover i{
     color: #fff;
@@ -411,7 +413,7 @@ background: -moz-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50% ,#cc2
 background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50% ,#cc2366 75%,#bc1888 100%);
 background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50% ,#cc2366 75%,#bc1888 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startcolorstr='#f09433', endcolorstr='#bc1888',GradientType=1);
-
+ text-decoration: none;
 }
 .icon .fa-linkedin-in{
     color: #0077B5;
@@ -422,21 +424,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startcolorstr='#f09433', end
 }
 .icon .fa-github{
     color: #000;
+     text-decoration: none;
 }
 .git:hover{
     background: #000;
+   text-decoration: none;
 }
 .icon .fa-youtube{
     color: #FE0000;
+    text-decoration: none;
 }
 .yt:hover{
     background: #FE0000;
+   text-decoration: none;
 }
 
 /* responsive */
 @media only screen and (min-width: 320px) and (max-width: 991px) {
     .main{
-        flex-direction: column;
+        flex-direction:column;
     }
 }
 
