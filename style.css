@@ -325,6 +325,10 @@ body {
   color: #f4092c;
   font-family: 'Kanit', sans-serif;
 }
+.container .passwordlabelcheck .messagepassword{
+  color: rgb(127, 204, 10);
+  display: none;
+}
 
 .container .login .passwordlabelerror{
   border-color: #cc2366;
