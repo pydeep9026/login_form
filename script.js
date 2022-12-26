@@ -8,7 +8,9 @@ let spanusername=document.querySelector(".messageusername");
 let spanpassword=document.querySelector(".messagepassword");
 let face = document.querySelector(".face");
 
-
+showPasswordButton.addEventListener('click', function (event) {
+  event.preventDefault();
+});
 
 loginbutton.addEventListener("click",function(e){
   var usernamecheck=usernameInput.value.trim()
