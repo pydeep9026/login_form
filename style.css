@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
 * {
   box-sizing: border-box;
   text-transform: capitalize;
@@ -23,9 +25,9 @@ body {
   background-image:url(5071621_19834.jpg);
 }
 
-.container .footer {
-  font-family: Arial;
-  font-family: 'Franklin Gothic Medium';
+.container .footer .title{
+  font-size: 34px;
+  font-family: 'Dosis', sans-serif;
 }
 .container .ear {
   position: absolute;
@@ -268,15 +270,88 @@ body {
   border-radius: 20px;
   font-size: 1rem;
 }
-/* .container .fa-user {
-  font-size: 1.3rem;
-} */
+
 .container .login input {
   padding: 0 50px 0 0px;
   margin: 5px 0;
   box-shadow: none;
   outline: none;
 }
+
+.container .login .usernamelabelerror{
+  border-color: #cc2366;
+}
+
+.container .login .usernamelabelcheck{
+  border-color: rgb(129, 211, 6);
+}
+
+.container .usernamelabelerror .messageusername{
+  color: #f4092c;
+  font-family: 'Kanit', sans-serif;
+}
+
+.container .usernamelabelerror i{
+  color: #f4092c;
+}
+
+.container .usernamelabel i{
+  display: none;
+}
+
+
+.container .usernamelabelcheck{
+  border-color:rgb(103, 198, 7);
+}
+
+.container .usernamelabelcheck i{
+  color: rgb(127, 204, 10);
+}
+
+.container .usernamelabelcheck .messageusername{
+  color: rgb(127, 204, 10);
+  display: none;
+}
+
+
+
+
+
+.container .passwordlabelerror{
+  border-color: #dc2743;
+}
+
+.container .passwordlabelerror .messagepassword{
+  color: #f4092c;
+  font-family: 'Kanit', sans-serif;
+}
+
+.container .login .passwordlabelerror{
+  border-color: #cc2366;
+}
+
+.container .login .passwordlabelcheck{
+  border-color: rgb(129, 211, 6);
+}
+.container .passwordlabelerror i{
+  color: #dc2743;
+}
+
+.container .passwordlabel i{
+  display: none;
+}
+
+.container .passwordlabelcheck{
+  border-color:rgb(103, 198, 7);
+}
+
+.container .passwordlabelcheck i{
+  color: rgb(127, 204, 10);
+}
+
+
+
+
 .container .login input::-moz-placeholder {
   color: #ccc;
 }
@@ -316,6 +391,7 @@ body {
   background-color: #243946;
   color: #fff;
   transition: transform 0.1s;
+  cursor: pointer;
 }
 .container .login .login-button:active {
   transform: scale(0.95);
@@ -395,6 +471,13 @@ body {
     color: #fff;
    text-decoration: none;
 }
+
+.icon  span a{
+  color: #fff;
+  text-decoration: none;
+
+}
+
 .icon:hover i{
     color: #fff;
 }
