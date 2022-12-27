@@ -539,7 +539,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startcolorstr='#f09433', end
   height:21px;
   width:100%;
   position: relative;
-  bottom: 30PX;
+  bottom: -150PX;
   display: block;
   justify-content: center;
   align-items: center;
