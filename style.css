@@ -538,7 +538,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startcolorstr='#f09433', end
   border:1px solid #000000;
   height:21px;
   width:100%;
-  position: absolute;
+  position: relative;
   bottom: 30PX;
   display: block;
   justify-content: center;
